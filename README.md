@@ -54,6 +54,6 @@ https://github.com/Nowembabazi/Weather-Api
 
 ## deployment 
 A live vercel link
-(hhtpss)
+(https://weather-api-inky-ten.vercel.app/)
 
 The project can also be run locally in Visual studio code using the live server.
