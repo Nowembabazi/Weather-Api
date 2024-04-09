@@ -6,7 +6,7 @@ Weather Api is a simple browser-based weather application. Users can search for 
 Below is a link to my github repo,
 https://github.com/Nowembabazi/Weather-Api
 
-🌤️ A detailed light and dark mode dashboard with a complete overview of live weather conditions in the specified city. Option to toggle weather data between Celsius and Fahrenheit units. Sidebar with random major cities weather. Built using the OpenWeather API.
+🌤️ A detailed light dashboard with a complete overview of live weather conditions in the specified city. Option to toggle weather data between Fahrenheit units. Sidebar with random major cities weather. Built using the OpenWeather API.
 
 ## Light Mode
 <a href="https://github.com/Nowembabazi/Weather-Api" target="_blank"></a>
