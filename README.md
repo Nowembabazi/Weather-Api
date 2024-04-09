@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## Weather-Api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+Weather Api is a simple browser-based weather application. Users can search for a city's current weather conditions, current UV-index, and five-day forecast. Previously searched cities can be quickly recalled from a search history list located below the input field.
 
-## Available Scripts
+Below is a link to my github repo,
+https://github.com/Nowembabazi/Weather-Api
 
-In the project directory, you can run:
+🌤️ A detailed light and dark mode dashboard with a complete overview of live weather conditions in the specified city. Option to toggle weather data between Celsius and Fahrenheit units. Sidebar with random major cities weather. Built using the OpenWeather API.
 
-### `npm start`
+## Light Mode
+<a href="https://github.com/Nowembabazi/Weather-Api" target="_blank"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5
+- CSS3
+- Bootstrap -4
+- JavaScript
+- OpenWeather API
+- jQuery
 
-### `npm run build`
+## Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Design**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fully responsive without using any media queries
+- Layout and responsive achieved using Bootstrap
+- Styling done through custom CSS
+- Light and dark mode themes using CSS variables
+- Custom animated icons ([https://bas.dev/work/meteocons](https://bas.dev/work/meteocons))
+- Custom loading spinner animation that will appear until all data has been downloaded
+- Minimalistic and cohesive design
+- Subtle shadow usage to increase contrast between certain text elements and icons
+- Custom scrollbar styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Interactive Elements**
 
-### `npm run eject`
+- Search cities from a database of over 200,000 cities with dynamic autosuggestions 
+- Geolocation button fetches the user’s current location and updates all content based on user’s city
+- Toggle weather data between imperial and metric
+- ‘Forecast In Other Cities’ section shows current weather data for 5 random cities from around the world; clicking on the city will update the weather dashboard with that city’s weather data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Features
+-Responsive UI: The dashboard is designed to look sleek and simple across multiple breakpoints. On extra small devices, the application's search history collapses into a button allowing the user to toggle its visibility on and off.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Dynamically Displayed Weather Data: The application does not need to be refreshed when requesting weather data for new cities. The user interface updates itself with each new request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-UV Condition Indicator: Using the EPA's standards for UV conditions, the application renders the UV index in green when the condition is favorable, yellow when the condition is moderate, and red when the condition is severe.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Intelligent Five-Day Forecast: Since five-day forecast data gets returned by the OpenWeather API in three-hour increments, the time coverage on the fifth day changes depending on when the request gets made. In order to maximize accuracy, the application looks to fill each of the five days using a noon forecast. If the application can't fulfill that goal for the fifth day, it uses a series of conditions to display the next best option.
 
-## Learn More
+## deployment 
+A live vercel link
+(hhtpss)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project can also be run locally in Visual studio code using the live server.
