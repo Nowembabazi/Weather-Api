@@ -12,7 +12,7 @@ body {
   }
   
   .search-item:hover {
-    background-color: #f8f9fa;
+    background-color: #d1d6dc;
   }
   
   @media (min-width: 1200px) {
